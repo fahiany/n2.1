@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 97%;
+    height: 46em;
+    padding: 20px;
+    background-color: rgb(200, 143, 216);
+}
+
+.nome1 {
+    flex: 1;
+    margin-left: 20px;
+}
+
+h1 {
+    font-size: 100px;
+    margin-top: 250px;
+}
+
+p {
+    font-size: 1.8em; 
+    margin-top: 10px;
+}
+
+.fotos {
+    margin-top: 100px;
+    position: relative;
+}
+
+.foto-redonda {
+    width: 500px; 
+    height: 500px; 
+    border-radius: 50%; /* Para torná-las redondas */
+    object-fit: cover; /* Para manter a proporção da imagem */
+}
+
+.foto-simbolo {
+    width: 150px; 
+    height: 150px; 
+}
+
+.sobre {
+    display: flex;
+    height: 100vh; /* Metade da tela */
+    width: 100%;
+}
+
+.foto-sobre {
+    flex: 1;
+    background-color: #d0d0d0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+}
+
+.foto-sobre-img {
+    width: 300px; 
+    border-radius: 150px 150px 0 0; 
+    margin-top: 180px;
+}
+
+.descricao {
+    flex: 1;
+    background-color: #a0a0a0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    color: white; 
+    padding: 30px;
+}
+
+h2 {
+    font-size: 2em; 
+    margin: 0;
+}
+
+.descricao p {
+    font-size: 1.2em; 
+}
+
+.habilidades {
+    display: flex;
+    height: 100vh; 
+    width: 100%;
+    background-attachment: fixed;
+} 
+
+.hab1 {
+    font-size: medium;
+}
+
+.forma1, .forma2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    color: white; 
+    padding: 30px;
+}
+
+.forma1 {
+    background-color: #4d4d4d; 
+}
+
+.forma2 {
+    background-color: #838383; 
+}
+
+.meio {
+    background-color: #f4f4f4;
+}
+
+
+
+
+.galeria {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Centraliza as fotos */
+    height: 100vh;
+}
+
+.galeria .foto {
+    margin-top: 80px;
+    text-align: center;
+    
+}
+
+.galeria .foto img {
+    width: 350px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 350px; /* Ajuste o tamanho da imagem conforme necessário */
+    border-radius: 50%; /* Para torná-las redondas */
+    object-fit: cover; /* Para manter a proporção da imagem */
+    
+    margin-right: 70px;
+    margin-left: 80px;
+}
+
+.galeria .hob1 {
+    text-align:center ; /* Centraliza o texto do h1 */
+    margin-bottom: 20px; /* Espaço entre o h1 e as fotos */
+}
+
+.fotos-container {
+    display: flex; /* Coloca as fotos em linha */
+    justify-content: center; /* Centraliza as fotos horizontalmente */
+}
